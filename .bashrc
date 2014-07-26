@@ -108,3 +108,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# for custom prompt
+export PS1="\133\w\135\055\342\232\231\040"
